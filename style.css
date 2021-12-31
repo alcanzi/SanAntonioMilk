@@ -712,14 +712,14 @@ input:focus {
   position: relative;
   z-index: 1;
   background-color: #f2f4f5; }
-  .services-area .services-thumbnail {
+  .services-area .services-thumbnail  {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 40%;
     flex: 0 0 40%;
     max-width: 40%;
     width: 40%; }
     @media only screen and (max-width: 767px) {
-      .services-area .services-thumbnail {
+      .services-area .services-thumbnail  {
         height: 300px;
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
@@ -918,38 +918,38 @@ input:focus {
       @media only screen and (max-width: 767px) {
         .testimonial-slides .single-slide .testi-text h5 {
           font-size: 14px; } }
-  .testimonial-slides .single-slide .testimonial-thumbnail-name {
+  .testimonial-slides .single-slide .testimonial-thumbnail -name {
     position: relative;
     z-index: 1;
     margin-left: 70px; }
     @media only screen and (max-width: 767px) {
-      .testimonial-slides .single-slide .testimonial-thumbnail-name {
+      .testimonial-slides .single-slide .testimonial-thumbnail -name {
         margin-left: 50px; } }
-    .testimonial-slides .single-slide .testimonial-thumbnail-name .testimonial-thumbnail {
+    .testimonial-slides .single-slide .testimonial-thumbnail -name .testimonial-thumbnail  {
       width: 90px;
       border-radius: 50%;
       border: 3px solid #77b122; }
       @media only screen and (max-width: 767px) {
-        .testimonial-slides .single-slide .testimonial-thumbnail-name .testimonial-thumbnail {
+        .testimonial-slides .single-slide .testimonial-thumbnail -name .testimonial-thumbnail  {
           width: 60px; } }
-      .testimonial-slides .single-slide .testimonial-thumbnail-name .testimonial-thumbnail img {
+      .testimonial-slides .single-slide .testimonial-thumbnail -name .testimonial-thumbnail  img {
         border-radius: 50%; }
-    .testimonial-slides .single-slide .testimonial-thumbnail-name .testimonial-name {
+    .testimonial-slides .single-slide .testimonial-thumbnail -name .testimonial-name {
       margin-left: 30px; }
       @media only screen and (max-width: 767px) {
-        .testimonial-slides .single-slide .testimonial-thumbnail-name .testimonial-name {
+        .testimonial-slides .single-slide .testimonial-thumbnail -name .testimonial-name {
           margin-left: 15px; } }
-      .testimonial-slides .single-slide .testimonial-thumbnail-name .testimonial-name h5 {
+      .testimonial-slides .single-slide .testimonial-thumbnail -name .testimonial-name h5 {
         color: #ffffff;
         margin-bottom: 5px; }
         @media only screen and (max-width: 767px) {
-          .testimonial-slides .single-slide .testimonial-thumbnail-name .testimonial-name h5 {
+          .testimonial-slides .single-slide .testimonial-thumbnail -name .testimonial-name h5 {
             font-size: 16px; } }
-      .testimonial-slides .single-slide .testimonial-thumbnail-name .testimonial-name h6 {
+      .testimonial-slides .single-slide .testimonial-thumbnail -name .testimonial-name h6 {
         color: #77b122;
         margin-bottom: 0; }
         @media only screen and (max-width: 767px) {
-          .testimonial-slides .single-slide .testimonial-thumbnail-name .testimonial-name h6 {
+          .testimonial-slides .single-slide .testimonial-thumbnail -name .testimonial-name h6 {
             font-size: 14px; } }
 .testimonial-slides .owl-next,
 .testimonial-slides .owl-prev {
@@ -1104,9 +1104,9 @@ input:focus {
   .single-recent-blog .post-thumbnail {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 70px;
-    flex: 0 0 70px;
-    max-width: 70px;
-    width: 70px;
+    flex: 0 0 300px;
+    max-width: 300px;
+    width: 30px;
     margin-right: 30px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-recent-blog .post-thumbnail {
